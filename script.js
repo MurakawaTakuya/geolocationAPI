@@ -20,7 +20,7 @@ function showPosition(position) {
     document.getElementById("count").innerHTML = "Count: " + count++;
 
     let iframe = document.getElementById("mapframe");
-    iframe.src = `http://maps.google.co.jp/maps?ll=${latitude},${longitude}&q=${latitude},${longitude}&output=embed&t=m&z=25`;
+    iframe.src = `https://maps.google.co.jp/maps?ll=${latitude},${longitude}&q=${latitude},${longitude}&output=embed&t=m&z=25`;
     
     console.log("Latitude: " + latitude + ", Longitude: " + longitude);
 }
